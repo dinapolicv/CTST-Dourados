@@ -14,13 +14,14 @@ export default function Home() {
         <link rel="icon" href="icon.ico" />
       </Head>
       <Navb/>
-      <div className={styles.slids}>
-        <Slid/>
-      </div>
+      <Slid/>
       <Api/>
-      <main className={styles.main}> 
+      <main className={styles.main}>
         <p>body</p>
       </main>
+      <div className={styles.form}>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6FRqBIAgfUDf5A-NecI3E_FenkkrJpf1Y7jYDUKHA8RWwKw/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0"/>
+      </div>
     </div>
   )
 }

@@ -13,8 +13,9 @@ export default function Navb() {
         fixed='top' 
         className={styles.header}
       >
-        <NavbarBrand href="/">
-          <img className={styles.img} src='logolt.png'/>
+        <NavbarBrand href="#">
+          <img className={styles.imgpc} src='logolt.png'/>
+          <img className={styles.imgcl} src='logopr.png'/>
         </NavbarBrand>
         <NavbarToggler 
           style={{
