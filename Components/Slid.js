@@ -65,7 +65,6 @@ export default function Slid() {
       activeIndex={activeIndex}
       next={next}
       previous={previous}
-      className={styles.slids}
     >
       <CarouselIndicators
         items={items}

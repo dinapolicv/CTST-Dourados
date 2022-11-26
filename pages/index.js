@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Navb from '../Components/Navb';
-import Slid from '../Components/Slid';
+import Apre from '../Components/Apre';
 import Api from '../Components/Api';
 
 export default function Home() {
@@ -14,13 +14,17 @@ export default function Home() {
         <link rel="icon" href="icon.ico" />
       </Head>
       <Navb/>
-      <Slid/>
+      <div className={styles.slids}>
+        <img src='bannerpc.png' className={styles.slidspc}/>
+        <img src='bannercell.png' className={styles.slidscl}/>
+      </div>
       <Api/>
       <main className={styles.main}>
+        <Apre/>
         <p>body</p>
       </main>
       <div className={styles.form}>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6FRqBIAgfUDf5A-NecI3E_FenkkrJpf1Y7jYDUKHA8RWwKw/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0"/>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6FRqBIAgfUDf5A-NecI3E_FenkkrJpf1Y7jYDUKHA8RWwKw/viewform?embedded=true" width="100%" height="1000"/>
       </div>
     </div>
   )

@@ -27,6 +27,7 @@ export default function Navb() {
             direction="end"
             scrollable
             isOpen={isOpen}
+            className={styles.lat}
           >
           <Navbar>
             <OffcanvasHeader>
