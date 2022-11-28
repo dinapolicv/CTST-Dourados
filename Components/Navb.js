@@ -39,9 +39,12 @@ export default function Navb() {
                 onClick={toggle}
               />
           </Navbar>
-          <OffcanvasBody>
-            <ul className={styles.list}>
+          <OffcanvasBody className={styles.list}>
+            <ul>
               <li>Home</li>
+              <li>Treinamentos</li>
+              <li>Empresas</li>
+              <li>Contato</li>
             </ul>
           </OffcanvasBody>
         </Offcanvas>

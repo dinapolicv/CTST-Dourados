@@ -1,94 +1,78 @@
 import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import style from '../styles/Home.module.css';
 import Slid from '../Components/Slid';
 import { Card, CardBody, CardTitle, CardSubtitle, CardText, Row, Col } from 'reactstrap';
 
 export default function Apre() {
     return(
-        <div>
-            <Row>
+        <div className={style.maini}>
+            <Row className={style.row}>
                 <Col
-                    className="bg-light border"
+                    className={style.ca}
                     sm="4"
                     xs="6"
                 >
 
                     <Card
+                        className={style.car}
                         color="secondary"
-                        inverse
                         outline
                     >
-                        <Slid/>
+                        <img src='demo1.png' className={style.casimg}/>
                         <CardBody>
-                        <CardTitle tag="h5">
-                            Card title
+                        <CardTitle className={style.font} tag="h5">
+                            Objetivo
                         </CardTitle>
-                        <CardSubtitle
-                            className="mb-2 text-muted"
-                            tag="h6"
-                        >
-                            Card subtitle
-                        </CardSubtitle>
-                        <CardText>
-                            Some quick example text to build on the card title and make up the bulk of the cards content.
+                        <CardText className={style.font1}>
+                            É conscientizar as empresas para que possam melhorar seus colaboradores de campo nos aspectos técnico e prático, e entregar serviços com qualidade. 
                         </CardText>
                         </CardBody>
                     </Card>
                 </Col>
 
                 <Col
-                    className="bg-light border"
+                    className={style.ca}
                     sm="4"
                     xs="6"
                 >
-
                     <Card
+                        className={style.car}
                         color="secondary"
-                        inverse
                         outline
                     >
-                        <Slid/>
+                        <img src='demo2.png' className={style.casimg}/>
                         <CardBody>
-                        <CardTitle tag="h5">
-                            Card title
+                        <CardTitle className={style.font} tag="h5">
+                            Segurança
                         </CardTitle>
-                        <CardSubtitle
-                            className="mb-2 text-muted"
-                            tag="h6"
-                        >
-                            Card subtitle
-                        </CardSubtitle>
-                        <CardText>
-                            Some quick example text to build on the card title and make up the bulk of the cards content.
+                        <CardText className={style.font1}>
+                            Investir em segurança é investir no maior patrimônio da sua empresa: as pessoas. 
+                            Pessoas pensam, criam, inovam, movimentam e dão vida a qualquer empresa.
                         </CardText>
                         </CardBody>
                     </Card>
                 </Col>
 
                 <Col
-                    className="bg-light border"
+                    className={style.ca}
                     sm="4"
                     xs="6"
                 >
                     
                     <Card
+                        className={style.car}
                         color="secondary"
-                        inverse
                         outline
                     >
-                        <Slid/>
+                        <img src='demo4.png' className={style.casimg}/>
                         <CardBody>
-                        <CardTitle tag="h5">
-                            Card title
+                        <CardTitle className={style.font} tag="h5">
+                            Diferencial
                         </CardTitle>
-                        <CardSubtitle
-                            className="mb-2 text-muted"
-                            tag="h6"
-                        >
-                            Card subtitle
-                        </CardSubtitle>
-                        <CardText>
-                            Some quick example text to build on the card title and make up the bulk of the cards content.
+                        <CardText className={style.font1}>
+                            Nossa empresa tem a execução dos treinamentos de segurança de 
+                            forma simples e objetiva, com a disponibilidade de nos dirigirmos até a 
+                            empresa.                    
                         </CardText>
                         </CardBody>
                     </Card>
