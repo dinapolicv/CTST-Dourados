@@ -21,10 +21,15 @@ export default function Home() {
       <Api/>
       <main className={styles.main}>
         <Apre/>
-        <p>body</p>
+        <div className={styles.maini}>
+          <p>body</p>
+        </div>
       </main>
       <div className={styles.form}>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6FRqBIAgfUDf5A-NecI3E_FenkkrJpf1Y7jYDUKHA8RWwKw/viewform?embedded=true" width="100%" height="1000"/>
+        <iframe 
+          src="https://docs.google.com/forms/d/e/1FAIpQLScha9h3-9zIXhN4bnDqkmnUFTb_YfV44-IcDV8yBJXVBygIsQ/viewform?embedded=true" 
+          className={styles.forms}
+        />
       </div>
     </div>
   )
