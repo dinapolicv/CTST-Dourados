@@ -41,10 +41,10 @@ export default function Navb() {
           </Navbar>
           <OffcanvasBody className={styles.list}>
             <ul>
-              <li>Home</li>
-              <li>Treinamentos</li>
-              <li>Empresas</li>
-              <li>Contato</li>
+              <a href='#'><li>Home</li></a>
+              <a href='#'><li>Treinamentos</li></a>
+              <a href='#'><li>Empresas</li></a>
+              <a href='#'><li>Contato</li></a>
             </ul>
           </OffcanvasBody>
         </Offcanvas>
