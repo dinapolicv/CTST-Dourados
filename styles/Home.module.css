@@ -50,9 +50,10 @@
 }
 
 .conta {
-  width: 70%;
+  width: 75%;
   display: grid;
-  grid-template-columns: 50% 50%; 
+  gap: 2%;
+  grid-template-columns: 50% 48%; 
 }
 
 .slids {

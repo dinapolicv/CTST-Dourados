@@ -12,7 +12,6 @@ export default function Formu() {
             >
                 <FormGroup row>
                     <Label
-                    for="exampleText"
                     sm={1}
                     >
                     Nome 
@@ -25,7 +24,6 @@ export default function Formu() {
                 </FormGroup>
                 <FormGroup row>
                     <Label
-                    for="exampleEmail"
                     sm={1}
                     >
                     Email
@@ -39,7 +37,6 @@ export default function Formu() {
                 </FormGroup>
                 <FormGroup row>
                     <Label 
-                    for="exampleNumber"
                     sm={1}
                     >
                         Number
@@ -53,7 +50,6 @@ export default function Formu() {
                 </FormGroup>
                 <FormGroup row>
                     <Label
-                    for="exampleText"
                     sm={1}
                     >
                     Mensagem 
