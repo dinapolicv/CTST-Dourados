@@ -67,11 +67,11 @@ export default function Formu() {
                         size: 10
                     }}
                     >
-                    <Button
-                        type='submit'
-                    >
-                        Submit
-                    </Button>
+                        <Button
+                            type='submit'
+                        >
+                            <a className={styles.a} href='../sucesso'>Submit</a>
+                        </Button>  
                     </Col>
                 </FormGroup>
             </Form>
