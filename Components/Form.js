@@ -19,6 +19,8 @@ export default function Formu() {
                 data-netlify="true"
                 action="/?success=true"
             >
+                <input type="hidden" name="form-name" value="contact"/>
+                
                 <FormGroup row>
                     <Label
                     sm={1}
@@ -29,7 +31,6 @@ export default function Formu() {
                         id="exampleText"
                         name="name"
                         type="text"
-                        value="contact"
                     />
                 </FormGroup>
                 <FormGroup row>
@@ -43,7 +44,6 @@ export default function Formu() {
                         name="email"
                         placeholder="exemplo@exemplo.com"
                         type="email"
-                        value="contact"
                     />
                 </FormGroup>
                 <FormGroup row>
@@ -57,7 +57,6 @@ export default function Formu() {
                         name="number"
                         placeholder="(xx)xxxxx-xxxx"
                         type="number"
-                        value="contact"
                     />
                 </FormGroup>
                 <FormGroup row>
@@ -70,7 +69,6 @@ export default function Formu() {
                         id="exampleText"
                         name="text"
                         type="textarea"
-                        value="contact"
                         className={styles.input}
                     />
                 </FormGroup>
