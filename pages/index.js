@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import { useState, useEffect } from 'react';
 import styles from '../styles/Home.module.css';
 import Navb from '../Components/Navb';
 import Apre from '../Components/Apre';
@@ -7,6 +8,12 @@ import Api from '../Components/Api';
 import Formu from '../Components/Form';
 
 export default function Home() {
+  const [success, setSuccess] = useState(false);
+  useEffect(() => {  
+    if ( window.location.search.includes('success=true') ) 
+        {    setSuccess(true);  }}, 
+      []
+    );
   return (
     <div className={styles.container}>
       <Head>
@@ -29,7 +36,10 @@ export default function Home() {
           <div>
             
           </div>
-          <Formu/>
+          <div>
+            {success && (  <p style={{ color: 'green'}}>    Successfully submitted form!  </p>)}
+            <Formu/>
+          </div>
         </div>
       </main>
     </div>

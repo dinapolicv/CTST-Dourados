@@ -1,16 +1,8 @@
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import { useState, useEffect } from 'react';
 import { Form, FormGroup, Label, Col, Input, Button } from 'reactstrap';
 
 export default function Formu() {
-    useEffect(() => {  
-            if ( window.location.search.includes('success=true') ) 
-                {    setSuccess(true);  }
-        }, 
-        []
-        
-    );
     return(
         <div>
             <Form
@@ -20,7 +12,7 @@ export default function Formu() {
                 action="/?success=true"
             >
                 <input type="hidden" name="form-name" value="contact"/>
-                
+
                 <FormGroup row>
                     <Label
                     sm={1}
