@@ -1,14 +1,23 @@
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
+import { useState, useEffect } from 'react';
 import { Form, FormGroup, Label, Col, Input, Button } from 'reactstrap';
 
 export default function Formu() {
+    useEffect(() => {  
+            if ( window.location.search.includes('success=true') ) 
+                {    setSuccess(true);  }
+        }, 
+        []
+    );
     return(
         <div>
+            <h1>{success && (  <p style={{ color: 'green'}}>    Successfully submitted form!  </p>)}</h1>
             <Form
                 name="contact" 
                 method="POST" 
                 data-netlify="true"
+                action="/?success=true"
             >
                 <FormGroup row>
                     <Label
@@ -70,7 +79,7 @@ export default function Formu() {
                         <Button
                             type='submit'
                         >
-                            <a className={styles.a} href='../sucesso'>Submit</a>
+                            Submit
                         </Button>  
                     </Col>
                 </FormGroup>
