@@ -9,10 +9,10 @@ export default function Formu() {
                 {    setSuccess(true);  }
         }, 
         []
+        
     );
     return(
         <div>
-            <h1>{success && (  <p style={{ color: 'green'}}>    Successfully submitted form!  </p>)}</h1>
             <Form
                 name="contact" 
                 method="POST" 
@@ -27,8 +27,9 @@ export default function Formu() {
                     </Label>
                     <Input
                         id="exampleText"
-                        name="text"
+                        name="name"
                         type="text"
+                        value="contact"
                     />
                 </FormGroup>
                 <FormGroup row>
@@ -42,6 +43,7 @@ export default function Formu() {
                         name="email"
                         placeholder="exemplo@exemplo.com"
                         type="email"
+                        value="contact"
                     />
                 </FormGroup>
                 <FormGroup row>
@@ -55,6 +57,7 @@ export default function Formu() {
                         name="number"
                         placeholder="(xx)xxxxx-xxxx"
                         type="number"
+                        value="contact"
                     />
                 </FormGroup>
                 <FormGroup row>
@@ -67,6 +70,7 @@ export default function Formu() {
                         id="exampleText"
                         name="text"
                         type="textarea"
+                        value="contact"
                         className={styles.input}
                     />
                 </FormGroup>
