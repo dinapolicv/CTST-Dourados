@@ -25,7 +25,10 @@ export default function Home() {
         <div className={styles.maini}>
           <p>body</p>
         </div>
-        <div className={styles.form}>
+        <div className={styles.conta}>
+          <div>
+            
+          </div>
           <Formu/>
         </div>
       </main>

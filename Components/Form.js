@@ -12,42 +12,62 @@ export default function Formu() {
             >
                 <FormGroup row>
                     <Label
+                    for="exampleText"
+                    sm={1}
+                    >
+                    Nome 
+                    </Label>
+                    <Input
+                        id="exampleText"
+                        name="text"
+                        type="text"
+                    />
+                </FormGroup>
+                <FormGroup row>
+                    <Label
                     for="exampleEmail"
-                    sm={2}
+                    sm={1}
                     >
                     Email
                     </Label>
-                    <Col sm={10}>
                     <Input
                         id="exampleEmail"
                         name="email"
                         placeholder="exemplo@exemplo.com"
                         type="email"
                     />
-                    </Col>
+                </FormGroup>
+                <FormGroup row>
+                    <Label 
+                    for="exampleNumber"
+                    sm={1}
+                    >
+                        Number
+                    </Label>
+                    <Input
+                        id="exampleNumber"
+                        name="number"
+                        placeholder="(xx)xxxxx-xxxx"
+                        type="number"
+                    />
                 </FormGroup>
                 <FormGroup row>
                     <Label
                     for="exampleText"
-                    sm={2}
+                    sm={1}
                     >
-                    Text Area
+                    Mensagem 
                     </Label>
-                    <Col sm={10}>
                     <Input
                         id="exampleText"
                         name="text"
                         type="textarea"
+                        className={styles.input}
                     />
-                    </Col>
                 </FormGroup>
-                <FormGroup
-                    check
-                    row
-                >
+                <FormGroup row>
                     <Col
                     sm={{
-                        offset: 2,
                         size: 10
                     }}
                     >
