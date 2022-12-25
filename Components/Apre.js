@@ -21,7 +21,7 @@ export default function Apre() {
                         <img src='demo1.png' className={style.casimg}/>
                         <CardBody>
                         <CardTitle className={style.font} tag="h5">
-                            Objetivo
+                            <p>Objetivo</p>
                         </CardTitle>
                         <CardText className={style.font1}>
                             É conscientizar as empresas para que possam melhorar seus colaboradores de campo nos aspectos técnico e prático, e entregar serviços com qualidade. 
@@ -43,7 +43,7 @@ export default function Apre() {
                         <img src='demo2.png' className={style.casimg}/>
                         <CardBody>
                         <CardTitle className={style.font} tag="h5">
-                            Segurança
+                            <p>Segurança</p>
                         </CardTitle>
                         <CardText className={style.font1}>
                             Investir em segurança é investir no maior patrimônio da sua empresa: as pessoas. 
@@ -67,7 +67,7 @@ export default function Apre() {
                         <img src='demo4.png' className={style.casimg}/>
                         <CardBody>
                         <CardTitle className={style.font} tag="h5">
-                            Diferencial
+                            <p>Diferencial</p>
                         </CardTitle>
                         <CardText className={style.font1}>
                             Nossa empresa tem a execução dos treinamentos de segurança de 

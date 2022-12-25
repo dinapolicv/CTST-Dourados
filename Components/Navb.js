@@ -35,7 +35,7 @@ export default function Navb() {
             </OffcanvasHeader>
               <Button
                 size='sm'
-                close
+                close 
                 onClick={toggle}
               />
           </Navbar>

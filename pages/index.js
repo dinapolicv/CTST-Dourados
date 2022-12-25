@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css';
 import Navb from '../Components/Navb';
 import Apre from '../Components/Apre';
 import Api from '../Components/Api';
+import Formu from '../Components/Form';
 
 export default function Home() {
   return (
@@ -24,13 +25,10 @@ export default function Home() {
         <div className={styles.maini}>
           <p>body</p>
         </div>
+        <div className={styles.form}>
+          <Formu/>
+        </div>
       </main>
-      <div className={styles.form}>
-        <iframe 
-          src="https://docs.google.com/forms/d/e/1FAIpQLScha9h3-9zIXhN4bnDqkmnUFTb_YfV44-IcDV8yBJXVBygIsQ/viewform?embedded=true" 
-          className={styles.forms}
-        />
-      </div>
     </div>
   )
 }
