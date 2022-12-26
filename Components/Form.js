@@ -34,7 +34,6 @@ export default function Formu() {
                     <Input
                         id="exampleEmail"
                         name="email"
-                        placeholder="exemplo@exemplo.com"
                         type="email"
                         required
                     />
@@ -48,7 +47,6 @@ export default function Formu() {
                     <Input
                         id="exampleTel"
                         name="tel"
-                        placeholder="xx xxxxx-xxxx"
                         type="tel"
                         minlength="9"
                         maxlength="11"
