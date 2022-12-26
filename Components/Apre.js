@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import style from '../styles/Home.module.css';
 import Slid from '../Components/Slid';
-import { Card, CardBody, CardTitle, CardSubtitle, CardText, Row, Col } from 'reactstrap';
+import { Card, CardBody, CardTitle, CardText, Row, Col } from 'reactstrap';
 
 export default function Apre() {
     return(

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import { Form, FormGroup, Label, Col, Input, Button } from 'reactstrap';
+import { Form, FormGroup, Label, Col, Row, Input, Button } from 'reactstrap';
 
 export default function Formu() {
     return(
@@ -66,17 +66,15 @@ export default function Formu() {
                         className={styles.input}
                     />
                 </FormGroup>
-                <FormGroup row>
-                    <Col
-                    sm={{
-                        size: 10
-                    }}
-                    >
+                <FormGroup row className={styles.bot}>
+                    <div></div>
+                    <Col>    
                         <Button
                             type='submit'
+                            className={styles.bot1} 
                         >
-                            Submit
-                        </Button>  
+                            Enviar
+                        </Button> 
                     </Col>
                 </FormGroup>
             </Form>

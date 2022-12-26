@@ -33,16 +33,19 @@ export default function Home() {
           <p>body</p>
         </div>
         <div className={styles.conta}>
-          <div className={styles.cent1}>
-            <label><h3>Contato</h3></label>
-            <p>Endereço // local</p>
-            <p>(67)999125450</p>
-            <p>ctst10@hotmail.com</p>
-          </div>
           <div className={styles.cent}>
             <label><h3>Fale conosco</h3></label>
             {success && (  <p style={{ color: 'green'}}>Enviada com sucesso!</p>)}
             <Formu/>
+          </div>
+          <div className={styles.cent1}>
+            <label><h3>Contato</h3></label>
+            <table>
+              <p>Endereço // local</p>
+              <p>(67)999125450</p>
+              <p>ctst10@hotmail.com</p>
+            </table>
+            <div></div>
           </div>
         </div>
       </main>
