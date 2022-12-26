@@ -59,10 +59,19 @@
 }
 
 .conta {
-  width: 75%;
+  width: 65%;
   display: grid;
-  gap: 2%;
-  grid-template-columns: 50% 48%; 
+  grid-template-columns: 50% 50%; 
+}
+
+.forms {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.forms .forms1 {
+  width: 90%;
 }
 
 .slids {

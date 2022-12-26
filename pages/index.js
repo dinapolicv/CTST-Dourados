@@ -34,10 +34,11 @@ export default function Home() {
         </div>
         <div className={styles.conta}>
           <div>
-            
+            ctst10@hotmail.com
           </div>
-          <div>
-            {success && (  <p style={{ color: 'green'}}>    Successfully submitted form!  </p>)}
+          <div className={styles.forms}>
+            <label><h3>Fale conosco</h3></label>
+            {success && (  <p style={{ color: 'green'}}>Enviada com sucesso!</p>)}
             <Formu/>
           </div>
         </div>

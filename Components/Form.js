@@ -4,7 +4,7 @@ import { Form, FormGroup, Label, Col, Input, Button } from 'reactstrap';
 
 export default function Formu() {
     return(
-        <div>
+        <div className={styles.forms1}>
             <Form
                 name="contact" 
                 method="POST" 
@@ -36,19 +36,23 @@ export default function Formu() {
                         name="email"
                         placeholder="exemplo@exemplo.com"
                         type="email"
+                        required
                     />
                 </FormGroup>
                 <FormGroup row>
                     <Label 
                     sm={1}
                     >
-                        Number
+                        Telefone
                     </Label>
                     <Input
-                        id="exampleNumber"
-                        name="number"
-                        placeholder="(xx)xxxxx-xxxx"
-                        type="number"
+                        id="exampleTel"
+                        name="tel"
+                        placeholder="xx xxxxx-xxxx"
+                        type="tel"
+                        minlength="9"
+                        maxlength="11"
+                        required 
                     />
                 </FormGroup>
                 <FormGroup row>
