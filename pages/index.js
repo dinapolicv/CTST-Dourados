@@ -30,7 +30,9 @@ export default function Home() {
       <main className={styles.main}>
         <Apre/>
         <div className={styles.maini}>
-          <p>body</p>
+          <div>
+
+          </div>
         </div>
         <div className={styles.conta}>
           <div className={styles.cent}>
@@ -40,11 +42,14 @@ export default function Home() {
           </div>
           <div className={styles.cent1}>
             <label><h3>Contato</h3></label>
-            <table>
-              <p>Endereço // local</p>
+            <div>
+              <label><h5>Endereço</h5></label>
+              <p>Loc // Endereco</p>
+              <label><h5>Telefone</h5></label>
               <p>(67)999125450</p>
+              <label><h5>Email</h5></label>
               <p>ctst10@hotmail.com</p>
-            </table>
+            </div>
             <div></div>
           </div>
         </div>
