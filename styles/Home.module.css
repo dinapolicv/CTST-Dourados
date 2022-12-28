@@ -60,19 +60,13 @@
 
 /* contatos */
 .conta {
-  width: 65%;
+  width: 70%;
+  height: 500px;
   display: grid;
-  grid-template-columns: 50% 50%; 
+  grid-template-columns: 60% 40%; 
 }
 
 .cent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.cent1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -84,7 +78,7 @@
 }
 
 .input {
-  height: 100px;
+  height: 150px;
 }
 
 .forms1 .bot {
@@ -255,6 +249,13 @@
     width: 80px;
     height: 80px;
   }
+
+  .conta {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 60% 40%; 
+  }
+
 }
 
 @media (max-width: 800px) {

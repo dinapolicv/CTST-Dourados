@@ -14,9 +14,7 @@ export default function Formu() {
                 <input type="hidden" name="form-name" value="contact"/>
 
                 <FormGroup row>
-                    <Label
-                    sm={1}
-                    >
+                    <Label>
                     Nome 
                     </Label>
                     <Input
@@ -26,9 +24,7 @@ export default function Formu() {
                     />
                 </FormGroup>
                 <FormGroup row>
-                    <Label
-                    sm={1}
-                    >
+                    <Label>
                     Email
                     </Label>
                     <Input
@@ -39,9 +35,7 @@ export default function Formu() {
                     />
                 </FormGroup>
                 <FormGroup row>
-                    <Label 
-                    sm={1}
-                    >
+                    <Label>
                         Telefone
                     </Label>
                     <Input
@@ -54,9 +48,7 @@ export default function Formu() {
                     />
                 </FormGroup>
                 <FormGroup row>
-                    <Label
-                    sm={1}
-                    >
+                    <Label>
                     Mensagem 
                     </Label>
                     <Input

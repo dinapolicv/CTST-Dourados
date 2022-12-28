@@ -30,7 +30,10 @@ export default function Home() {
       <main className={styles.main}>
         <Apre/>
         <div className={styles.maini}>
-          <div>
+          <div className={styles.main}>
+
+          </div>
+          <div className={styles.main}>
 
           </div>
         </div>
@@ -40,7 +43,7 @@ export default function Home() {
             {success && (  <p style={{ color: 'green'}}>Enviada com sucesso!</p>)}
             <Formu/>
           </div>
-          <div className={styles.cent1}>
+          <div className={styles.cent}>
             <label><h3>Contato</h3></label>
             <div>
               <label><h5>Endereço</h5></label>
