@@ -1,11 +1,11 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import styles from '../styles/Home.module.css';
 import Navb from '../Components/Navb';
 import Apre from '../Components/Apre';
 import Api from '../Components/Api';
 import Formu from '../Components/Form';
+import Docs from '../Components/Docs';
 
 export default function Home() {
   const [success, setSuccess] = useState(false);
@@ -29,13 +29,8 @@ export default function Home() {
       <Api/>
       <main className={styles.main}>
         <Apre/>
-        <div className={styles.maini}>
-          <div className={styles.main}>
-
-          </div>
-          <div className={styles.main}>
-
-          </div>
+        <div className={styles.main}>
+          <Docs/>
         </div>
         <div className={styles.conta}>
           <div className={styles.cent}>

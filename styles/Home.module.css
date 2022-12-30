@@ -59,6 +59,7 @@
 }
 
 /* contatos */
+
 .conta {
   width: 70%;
   height: 500px;
@@ -93,6 +94,7 @@
 /* contatos */
 
 /* slides */
+
 .slids {
   width: 100%;
   margin-top: 72px;
@@ -112,6 +114,7 @@
 /* slides */
 
 /* apresentacao */
+
 .casimg {
   width: 100%;
 }
@@ -151,6 +154,7 @@
 }
 
 /* corpo */
+
 .main {
   padding: 5vh 0;
   width: 100%;
@@ -161,11 +165,26 @@
 }
 
 .maini {
+  padding: 5vh 0;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
+
+.mainx {
+  padding: 5vh 0;
+  width: 100%;
+}
 /* corpo */
 
+/* exp */
+
+.doc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+/* exp */
 .footer {
   display: flex;
   flex: 1;
