@@ -7,15 +7,31 @@ export default function Docs() {
             <Card className={styles.doc}>
                 <CardBody>
                     <CardText>
-                        texto
+                        texto1
                     </CardText>
                 </CardBody>
             </Card>
-            
+
             <Card className={styles.doc}>
                 <CardBody>
                     <CardText>
-                        texto
+                        texto2
+                    </CardText>
+                </CardBody>
+            </Card>
+
+            <Card className={styles.doc}>
+                <CardBody>
+                    <CardText>
+                        texto3
+                    </CardText>
+                </CardBody>
+            </Card>
+
+            <Card className={styles.doc}>
+                <CardBody>
+                    <CardText>
+                        texto4
                     </CardText>
                 </CardBody>
             </Card> 
