@@ -3,28 +3,22 @@ import { Card, CardBody, CardTitle, CardText, Row, Col } from 'reactstrap';
 
 export default function Docs() {
     return(
-        <div>
-            <div className={styles.mainx}>
-                <div className={styles.doc}>
-                    <Card>
-                        <CardBody>
-                            <CardText>
-                                texto
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                    <Card>
-                        <CardBody>
-                            <CardText>
-                                texto
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </div>
-                <div className={styles.doc}>
-                
-                </div>    
-            </div>
+        <div className={styles.mainx}>
+            <Card className={styles.doc}>
+                <CardBody>
+                    <CardText>
+                        texto
+                    </CardText>
+                </CardBody>
+            </Card>
+            
+            <Card className={styles.doc}>
+                <CardBody>
+                    <CardText>
+                        texto
+                    </CardText>
+                </CardBody>
+            </Card> 
         </div>
     )
 }

@@ -174,15 +174,17 @@
 .mainx {
   padding: 5vh 0;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
 }
 /* corpo */
 
 /* exp */
 
 .doc {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+  padding: 10px;
+  border: none;
 }
 /* exp */
 .footer {
