@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Navb from '../Components/Navb';
 import Api from '../Components/Api';
@@ -22,9 +22,16 @@ export default function Home() {
       <main className={styles.main}>
         <Corpo/>
       </main>
-      <footer className={styles.foo}>
+      <footer className={styles.footer}>
+        <div className={styles.ima}>
+          <img className={styles.imgpc} src='logolt2.png'/>
+          <img className={styles.imgcl} src='logopr.png'/>
+        </div> 
         <div>
-          <label><h5>Contato</h5></label>
+          <label><h5>Informações</h5></label>
+        </div>
+        <div>
+          <label><h5>Atendimento</h5></label>
           <ul>
             <li><p> Rua Eykishi Sakaguti 344 <p> Bairro Altos do Indaia</p></p></li>
             <li><p>(67) 99912-5450</p></li>
@@ -32,9 +39,7 @@ export default function Home() {
             <li><p>ctst10@hotmail.com</p></li>
           </ul> 
         </div>
-        <div>
-
-        </div>
+        <div></div>
       </footer>
     </div>
   )
