@@ -2,18 +2,10 @@ import Head from 'next/head';
 import { useState, useEffect } from 'react';
 import styles from '../styles/Home.module.css';
 import Navb from '../Components/Navb';
-import Apre from '../Components/Apre';
 import Api from '../Components/Api';
-import Formu from '../Components/Form';
-import Docs from '../Components/Docs';
+import Corpo from '../Components/Corpo';
 
 export default function Home() {
-  const [success, setSuccess] = useState(false);
-  useEffect(() => {  
-    if ( window.location.search.includes('success=true') ) 
-        {    setSuccess(true);  }}, 
-      []
-    );
   return (
     <div className={styles.container}>
       <Head>
@@ -28,30 +20,22 @@ export default function Home() {
       </div>
       <Api/>
       <main className={styles.main}>
-        <Apre/>
-        <div className={styles.main}>
-          <Docs/>
-        </div>
-        <div className={styles.conta}>
-          <div className={styles.cent}>
-            <label><h3>Fale conosco</h3></label>
-            {success && (  <p style={{ color: 'green'}}>Enviada com sucesso!</p>)}
-            <Formu/>
-          </div>
-          <div className={styles.cent}>
-            <label><h3>Contato</h3></label>
-            <div>
-              <label><h5>Endereço</h5></label>
-              <p>Loc // Endereco</p>
-              <label><h5>Telefone</h5></label>
-              <p>(67)999125450</p>
-              <label><h5>Email</h5></label>
-              <p>ctst10@hotmail.com</p>
-            </div>
-            <div></div>
-          </div>
-        </div>
+        <Corpo/>
       </main>
+      <footer className={styles.foo}>
+        <div>
+          <label><h5>Contato</h5></label>
+          <ul>
+            <li><p> Rua Eykishi Sakaguti 344 <p> Bairro Altos do Indaia</p></p></li>
+            <li><p>(67) 99912-5450</p></li>
+            <li><p>(67) 99984-0281</p></li>
+            <li><p>ctst10@hotmail.com</p></li>
+          </ul> 
+        </div>
+        <div>
+
+        </div>
+      </footer>
     </div>
   )
 }
