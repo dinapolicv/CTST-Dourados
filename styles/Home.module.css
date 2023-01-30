@@ -194,6 +194,10 @@
 .doc :hover {
   border-bottom: solid #eeeeee;
 }
+
+.doc a:hover {
+  border: none;
+}
 /* exp */
 /* footer */
 
