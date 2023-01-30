@@ -46,7 +46,7 @@ export default function Apre() {
                         </CardTitle>
                         <CardText className={style.font1}>
                             Investir em segurança é investir no maior patrimônio da sua empresa: as pessoas. 
-                            Pessoas pensam, criam, inovam, movimentam e dão vida a qualquer empresa.
+                            Pessoas pensam, criam, inovam e dão vida a qualquer empresa.
                         </CardText>
                         </CardBody>
                     </Card>
