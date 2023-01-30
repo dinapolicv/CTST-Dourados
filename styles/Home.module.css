@@ -189,6 +189,10 @@
 
 .doc {
   border: none;
+  cursor: pointer;
+}
+.doc :hover {
+  border-bottom: solid #eeeeee;
 }
 /* exp */
 /* footer */
