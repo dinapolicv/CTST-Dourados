@@ -195,7 +195,7 @@
   border-bottom: solid #eeeeee;
 }
 
-.doc a:hover {
+.doc .do:hover {
   border: none;
 }
 /* exp */

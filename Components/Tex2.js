@@ -9,9 +9,9 @@ export default function Tex() {
     return(
         <div className={styles.mainx}>
             <Card className={styles.doc}>
-                <CardBody>
-                    <CardText>
-                        <a onClick={toggle}>Treinameto</a>
+                <CardBody className={styles.do}>
+                    <CardText className={styles.do}>
+                        <a onClick={toggle} className={styles.do}>Treinameto</a>
                     </CardText>
                 </CardBody>
             </Card>
